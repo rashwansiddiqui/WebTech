@@ -1,0 +1,16 @@
+{
+  "name": "myapp1",
+  "version": "1.0.0",
+  "description": "This is my first express program",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+
+  },
+  "keywords": [
+    "ExpressApp"
+  ],
+  "author": "Rashwan Siddiqui",
+  "license": "ISC"
+}
