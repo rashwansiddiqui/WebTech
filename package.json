@@ -1,16 +1,20 @@
 {
-  "name": "myapp1",
+  "name": "p1",
   "version": "1.0.0",
-  "description": "This is my first express program",
-  "main": "App.js",
+  "description": "practice CRUD API",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon App.js"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ExpressApp"
+    "crud",
+    "api"
   ],
-  "author": "Rashwan Siddiqui",
-  "license": "ISC"
+  "author": "rashwan siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
 }
